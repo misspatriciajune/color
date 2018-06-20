@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>What color is this?</title>
+		<link rel="stylesheet" type="text/css" href="colorGame.css">
+	</head>
+
+	<body>
+		<h1>
+			Can you guess.. 
+			<br>
+			<span id="guessColor">RGB</span> 
+			<br>
+			..what color is this?
+		</h1>
+
+		<div id="divider">
+			<button id="reset">New Colors</button>
+			<span id="message"></span>
+			<button class="level">Easy</button>
+			<button class="level selected">Hard</button>
+		</div>
+
+		<div id="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+
+		<script type="text/javascript" src="colorGame.js"></script>
+	</body>
+</html>

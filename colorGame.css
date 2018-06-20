@@ -1,0 +1,74 @@
+h1 {
+	color: white;
+	background-color: grey;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0;
+}
+
+body {
+	background-color: black;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+	background: black;
+}
+
+#guessColor {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	color: palevioletred;
+	width: 20%;
+}
+
+#divider {
+	height: 30px;
+	text-align: center;
+	color: black;
+	background: white;
+}
+
+.selected {
+	color: white;
+	background: black;
+}
+
+button {
+	height: 100%;
+	text-transform: uppercase;
+	border: none;
+	background: none;
+	font-size: inherit;
+	font-weight: 700;
+	color: grey;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	background: black;
+	color: white;
+}
